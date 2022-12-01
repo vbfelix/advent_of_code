@@ -4,7 +4,6 @@ library(dplyr)
 # remotes::install_github("dgrtwo/adventdrob")
 df <- adventdrob::advent_input(day = 1,year = 2022,parse = TRUE)
 
-
 # part 1 -------------------------------------------------------------------
 
 df %>% 
